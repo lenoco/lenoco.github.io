@@ -1,48 +1,48 @@
 body {
   font-family: "Champagne & Limousines", sans-serif;
-  font-size: 20px;
+  font-size: 1.100em;
   color: #222;
-  padding: 10px;
+  padding: 0.625em;
   background: #F8F8F8;
 }
 
 header {
   text-align: right;
-  padding: 20px;
-  margin-right: 315px;
-  margin-bottom: 20px;
+  padding: 1.250em;
+  margin-right: 19.688em;
+  margin-bottom: 1.250em;
 }
 
 img {
-  margin-top: 0px;
-  margin-right: 120px;
+  margin-top: 0em;
+  margin-right: 7.500em;
 }
 
 #menu {
   font-family: "Roboto", sans-serif;
   width: 100%;
   height: 2%;
-  font-size: 16px;
+  font-size: 1em;
   text-align: center;
   background-color: #A8A8A8;
-  border-radius: 4px;
+  border-radius: 0.250em;
 }
 
 #menu ul {
   height: auto;
-  padding: 6px 0px;
-  margin: 0px;
+  padding: 0.375em 0em;
+  margin: 0em;
 }
 
 #menu li {
   display: inline;
-  padding: 20px;
+  padding: 1.250em;
 }
 
 #menu a {
   text-decoration: none;
   color: #FFF;
-  padding: 20px;
+  padding: 1.250em;
 }
 
 #menu a:hover {
@@ -52,15 +52,15 @@ img {
 
 main {
   float: left;
-  padding: 20px;
+  padding: 1.250em;
   width: 60%;
 }
 
 h1 {
   margin-top: 0;
   margin-bottom: 1%;
-  font-weight: 800px;
-  font-size: 80px;
+  font-weight: 50.000em;
+  font-size: 5.000em;
 }
 
 h2 {
@@ -89,7 +89,15 @@ ul {
   position: absolute;
   right: 0px;
   width: 35%;
-  padding: 20px;
+  padding: 1.250em;
+}
+
+.site:link {
+  color: #000;
+}
+
+.site:visited {
+  color: #000;
 }
 
 .site:hover {

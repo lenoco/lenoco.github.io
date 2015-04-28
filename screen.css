@@ -100,16 +100,13 @@ img.displayed {
   margin-right: auto;
 }
 
-.container {
-  position: relative;
-
-}
-
 .center {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   positive: relative;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .right {
@@ -120,7 +117,7 @@ img.displayed {
 }
 
 .site:link {
-  color: #000;
+  color: #FFF;
 }
 
 .site:visited {
@@ -129,4 +126,8 @@ img.displayed {
 
 .site:hover {
   color: #F90;
+}
+
+.site:active {
+  color: #000
 }

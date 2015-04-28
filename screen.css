@@ -22,6 +22,7 @@ body {
 .sidebar {
 	width: 320px;
 	float: right;
+  position: absolute;
 }
 
 #footer {
@@ -83,6 +84,10 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
+address {
+  font-size: 2em;
+}
+
 p {
   line-height: 1.5;
   margin-bottom: 5px;
@@ -114,6 +119,7 @@ img.displayed {
   right: 0px;
   width: 35%;
   padding: 20px;
+  margin-right: 140px;
 }
 
 .site:link {
@@ -129,5 +135,5 @@ img.displayed {
 }
 
 .site:active {
-  color: #000
+  color: #000;
 }

@@ -1,17 +1,17 @@
-article, aside, footer, header, menu, nav, section {
+article, aside, footer, header, nav, section {
     display: block;
 }
 
 body {
   font-family: "Champagne & Limousines", sans-serif;
-  font-size: 1em;
+  font-size: 12pt;
   color: #222;
   padding: 0.625em;
   background: #F8F8F8;
 }
 
 #header {
-  height: 200px;
+  height: 220px;
 }
 
 .content {
@@ -42,6 +42,8 @@ body {
   text-align: center;
   background-color: #A8A8A8;
   border-radius: 0.250em;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #resume-menu ul {
@@ -53,7 +55,7 @@ body {
 #resume-menu li {
   display: inline;
   padding: 1.250em;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 #resume-menu a {
@@ -89,6 +91,32 @@ p {
 
 ul {
   margin-top: 0;
+  margin-bottom: 20px;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  positive: relative;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 35%;
+  padding: 20px;
 }
 
 .site:link {

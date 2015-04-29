@@ -14,6 +14,10 @@ body {
   background: #F8F8F8;
 }
 
+img {
+  display: none;
+}
+
 #header {
   height: 220px;
 }
@@ -76,15 +80,15 @@ h1 {
   font-size: 5.000em;
 }
 
+address {
+  display: none;
+}
+
 h2 {
   margin-top: 0;
   margin-bottom: 10px;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
-}
-
-address {
-  font-size: 2em;
 }
 
 p {

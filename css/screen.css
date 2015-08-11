@@ -166,7 +166,7 @@ img.resize {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
-  padding-bottom: 2em;
+  padding: 0 1em 2em;
 }
 
 .right {

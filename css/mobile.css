@@ -1,4 +1,31 @@
-@media (max-width: 320px) {
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+	#content {
+		width: 65%;
+		float: none;
+	}
+	#sidebar {
+		width: 30%;
+		float: none;
+	}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
 
   body {
     font-size: 18px;
@@ -10,6 +37,10 @@
   nav {
     position: static;
     height: 1%;
+  }
+
+  nav>li {
+    font-size: 60%;
   }
 
   ul {
@@ -34,7 +65,7 @@
     font-size: 110%;
   }
 
-  li {
+  main>li {
     font-size: 110%;
   }
 
@@ -53,15 +84,16 @@
 
   img.logo,
   img.displayed {
-    width: 270px;
+    width: 100%;
     height: auto;
     float: none;
     margin-top: 10px;
   }
 
   img.brochure,
+	img.flyer,
   img.resize {
-    width: 270px;
+    width: 100%;
     height: auto;
     float: none;
     margin-top: 10px;
